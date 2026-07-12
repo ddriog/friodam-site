@@ -12,11 +12,12 @@
   body {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     background: #0f172a;
     color: #f8fafc;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-    text-align: center;
+    text-align: right;
+    padding-right: 5vw;
   }
   h1 {
     font-size: clamp(2.5rem, 8vw, 5rem);
@@ -29,6 +30,12 @@
     font-size: clamp(1.25rem, 4vw, 2.5rem);
     color: #94a3b8;
   }
+  .small {
+    margin-top: 0.75rem;
+    font-size: clamp(0.85rem, 2vw, 1.1rem);
+    color: #64748b;
+    line-height: 1.6;
+  }
   a {
     color: #38bdf8;
     text-decoration: none;
@@ -39,6 +46,11 @@
   <div>
     <h1>friodam</h1>
     <p>instant home cooling that actually works. amsterdam.</p>
+    <p class="small">
+      - suitable for apartments/homes of every size<br>
+      - no balcony required, plug and play<br>
+      - quiet under every circumstance
+    </p>
   </div>
 </body>
 </html>
